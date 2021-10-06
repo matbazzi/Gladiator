@@ -1,12 +1,13 @@
-import { Gladiateur } from './Gladiateur.class';
+import { Galadiateur } from './Galadiateur.class';
 
-let joueurs: Array<Gladiateur> = [];
+let joueursResult: Array<Galadiateur> = [];
 let nameJoueur1 = '';
 let nameJoueur2 = '';
 let lancer = (joueurs: Array<string>) => {
   for (let joueur of joueurs) {
-    let gladiateur = new Gladiateur(joueur);
-    joueurs.push(gladiateur);
+    let galadiateur = {} as Galadiateur;
+    galadiateur = new Galadiateur(joueur);
+    joueursResult.push(galadiateur);
   }
   return joueurs;
 };
