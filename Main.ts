@@ -25,3 +25,6 @@ let valider = () => {
   inputAcceuil.hidden = true;
   listJouer1.innerText = nameJoueur1;
 };
+let ataque=()=>{
+  
+}
